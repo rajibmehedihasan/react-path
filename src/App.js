@@ -1,5 +1,13 @@
+import ClickCounter from './components/ClickCounter';
+import HoverCounter from './components/HoverCounter';
+
 function App() {
-    return <div>Hello World</div>;
+    return (
+        <>
+            <ClickCounter />
+            <HoverCounter />
+        </>
+    );
 }
 
 export default App;
