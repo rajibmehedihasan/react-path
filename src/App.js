@@ -1,5 +1,7 @@
+import UseEffectComponent from './components/UseEffectComponent';
+
 function App() {
-    return <div>Hello World</div>;
+    return <UseEffectComponent />;
 }
 
 export default App;
